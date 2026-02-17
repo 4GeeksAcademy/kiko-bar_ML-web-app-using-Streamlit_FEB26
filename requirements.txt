@@ -17,3 +17,5 @@ xgboost
 pandas>=2.0.0
 # Visualization & Notebook support
 ipykernel
+streamlit
+joblib
