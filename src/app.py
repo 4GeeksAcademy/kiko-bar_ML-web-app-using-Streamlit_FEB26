@@ -83,6 +83,6 @@ if st.button("Predict Cluster"):
     map_df = input_df_5[['Latitude', 'Longitude']].rename(columns={'Latitude': 'latitude','Longitude': 'longitude'})
     st.map(map_df)
 
-with st.expander("ℹ️ About this Project"):
-        st.write("This model classifies California regions into 6 clusters...")
-        st.markdown("[View Source Code on GitHub](your-link-here)")
+with st.expander("About this Project"):
+    st.write("This model classifies California regions into 6 clusters...")
+    st.markdown("[View Source Code on GitHub](your-link-here)")
